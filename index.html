@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.scss">
     <title>jquerylite</title>
     <script type="text/javascript" src="lib/DOMagic.js" charset="utf-8"></script>
-    <!-- <script type="text/javascript">
-      debugger
-    </script> -->
   </head>
   <body>
 
@@ -18,7 +16,8 @@
     </div>
 
     <h3>List of Foods (Elements to test with)</h3>
-
+    <h4>click a list item to see handled click event</h4>
+  </br>
     <div class="third-div">
       <ul id="food-list" class="food-list">
         <li>Turkey</li>
@@ -26,12 +25,19 @@
         <li class="carbs">Stuffing</li>
       </ul>
     </div>
-
+  </br>
     <ul class="more-foods">
       <li class="carbs">Pizza</li>
       <li class="carbs">Cookies</li>
       <li>Water</li>
     </ul>
+
+    <button type="button" class="hide-btn">Hide Top List</button>
+    <button type="button" class="show-btn">Show Top List</button>
+  </br>
+</br>
+    <p class="appendable">Click below to append me to the carbs!</p>
+    <button type="button" class="append-btn">Append!</button>
 
   </body>
 </html>
