@@ -62,13 +62,20 @@ $DOMagic( () => {
 #### removeClass(args)
   * Takes a class as an argument and removes that class to each node in the collection.
 
-### Additional functionality of DOMagic:
+### Additional functionality:
 
 #### Event Handling:
-
 ##### on()
 
 Takes an event type ('click', 'keydown', etc) as a string as its first argument and a callback, and adds a listener for that type of event on each node in the DOMNodeCollection, employing  Javascript's native `addEventListener` function.
+
+```javascript
+  const $li = $DOMagic("li");
+  $li.on("click", function(e) {
+    const targetText = $DOMagic(e.currentTarget).html();
+    alert("You clicked on " + targetText );
+  });
+```
 
 ##### off()
 
