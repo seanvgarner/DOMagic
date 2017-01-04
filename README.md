@@ -6,7 +6,7 @@ document ready queue, and AJAX requests.
 
 ### How to Test
 
-Download this repo and open the index file in the browser. From there you can see simple examples of $DOMagic put to use. For more info on available methods, see below:
+Click this [link]('http://sean-garner.co/DOMagic') to a very simple demonstration of DOMagic. From there you can see simple examples of $DOMagic methods put to use. For more info on available methods, see below:
 
 ### Methods
 
